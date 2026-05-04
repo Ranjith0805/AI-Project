@@ -6,9 +6,12 @@ Ask questions, generate quizzes, summarize text — all in your language!
 ---
 
 ## 🎯 What Problem Does It Solve?
-Students often struggle to understand complex topics, generate practice 
-questions, and summarize large texts. Siri's Study Buddy solves all 
-three problems in one simple app!
+Students often struggle to:
+- Understand complex topics simply
+- Generate practice questions
+- Summarize large texts
+
+Siri's Study Buddy solves all three in one simple app!
 
 ---
 
@@ -18,24 +21,36 @@ three problems in one simple app!
 - Ask any question and get simple explanations
 - AI remembers the full conversation
 - Friendly Study Buddy personality
+- Response caching — same question answered instantly!
 
 ### 📖 Subject Selector
-- Choose from Mathematics, Physics, Chemistry, 
+- General, Mathematics, Physics, Chemistry,
   Biology, History, Computer Science
 
-### 🎯 Quiz Generator
+### 🎯 Difficulty Selector
+- Easy — explains like a 10 year old
+- Medium — normal explanation with examples
+- Hard — deep technical explanation
+
+### 🌍 Language Selector
+- English, Tamil, Hindi, Telugu, Kannada
+
+### 🎯 Interactive Quiz
 - Generate 5 MCQ questions on any subject
-- Choose difficulty — Easy, Medium, Hard
-- Interactive quiz with scoring
+- Questions connected to your recent chat topics
+- Choose difficulty level
+- Interactive scoring system
 - Balloons animation on perfect score! 🎉
 
 ### 📝 Text Summarizer
 - Paste any text from your textbook
 - Get clean bullet point summary instantly
 
-### 🌍 Language Selector
-- Get explanations in English, Tamil, 
-  Hindi, Telugu, Kannada
+### 👋 Welcome Message
+- Friendly intro when app first opens
+
+### ℹ️ About Section
+- Complete app info expandable section
 
 ### 🗑️ Clear Chat
 - Reset conversation anytime
@@ -59,28 +74,23 @@ three problems in one simple app!
 |-----|-----------|
 | Day 1 | First AI call, Interactive Q&A |
 | Day 2 | Chatbot with memory, personality |
-| Day 3 | Streamlit UI, live deployment |
-| Day 4 | Sidebar, subject selector, quiz button |
-| Day 5 | Interactive quiz with scoring, summarizer |
+| Day 3 | Streamlit UI, live deployment, security fix |
+| Day 4 | Sidebar, subject selector, quiz button, clear chat |
+| Day 5 | Interactive quiz with scoring, text summarizer |
 | Day 6 | Language selector, difficulty selector |
+| Day 7 | Welcome message, About section, UI improvements, response caching |
 
 ---
 
 ## 🚀 How To Run
 1. Open Google Colab
-2. Run all cells top to bottom
-3. Open ngrok link in browser
-4. Start studying!
+2. Add Gemini API key and ngrok token to Secrets
+3. Run all cells top to bottom
+4. Open ngrok link in browser
+5. Start studying!
 
 ---
 
 ## ⚠️ Note
 This app uses Gemini AI free tier.
 If you see quota exceeded error, wait 1-2 hours and try again!
-
----
-
-## 👨‍💻 Developer
-**Ranjith** — Started from zero, built a complete AI app in 6 days! 💪
-
-> "Building technology that makes a difference!" 🌱
